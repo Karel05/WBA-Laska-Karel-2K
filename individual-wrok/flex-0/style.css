@@ -61,7 +61,7 @@ backdrop-filter: blur(3px);
 
 main {
 flex: 0.85;
-background-image:url("Background.jpg");
+background-image:url("Background.jpeg");
 margin-top: 54px;
 position: relative;
 background-repeat: no-repeat;
