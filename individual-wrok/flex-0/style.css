@@ -21,6 +21,7 @@ nav li{
     display: inline;
     margin: 1rem;
     background: blue;
+    border: 1px solid black;
     
 }
 
@@ -47,7 +48,7 @@ ul{
 }
 .down p{
     display: inline-block;
-  
+    border: 1px solid black ;
     color: white;
     text-align: center;
     padding: 1rem 1.5rem;
