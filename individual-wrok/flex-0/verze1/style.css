@@ -19,9 +19,9 @@ body{
 nav li{
     list-style-type: none;
     display: inline;
-    margin: 1rem;
+    padding: 1rem;
     background: blue;
-    border: 1px solid black;
+    
     
 }
 
@@ -34,12 +34,13 @@ nav li a{
    
     display: flex;
     justify-content: center;
+   
 }
 ul{
        margin: 0;
     padding: 0;
     overflow: hidden;
-   
+    
     background: blue;
     display: flex;
     justify-content: center;
@@ -48,7 +49,7 @@ ul{
 }
 .down p{
     display: inline-block;
-    border: 1px solid black ;
+    
     color: white;
     text-align: center;
     padding: 1rem 1.5rem;
