@@ -83,7 +83,7 @@ main{
 }
 .hint{
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
 }
 h1{
     font-size: 2rem;
