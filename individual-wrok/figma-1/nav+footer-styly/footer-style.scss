@@ -1,0 +1,33 @@
+@import '../promene.scss';
+.foot{
+    background: $nav-bckg;
+    padding: 2rem;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+   
+   
+     .odkazy{
+         text-align: center;
+         text-decoration: none;
+         border: none;
+         color: black;
+         font-family: $font;
+         font-size: 0.75rem;
+         opacity: 1;
+         transition: opacity 0.2s;
+         font-weight: 600;
+         &:hover{
+             opacity: 0.5;
+         }
+     }
+ }
+
+ @media screen and (min-width:480px ) {
+  .foot{
+    height: 6.875rem;
+    padding: 0px 2rem;
+  }
+}

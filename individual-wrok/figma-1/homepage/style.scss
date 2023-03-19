@@ -1,0 +1,134 @@
+@import 'screen-styles.scss';
+@import '../nav+footer-styly/nav-style.scss';
+@import '../promene.scss';
+@import '../nav+footer-styly/footer-style.scss';
+
+
+
+
+
+html,body{
+    font-family: $font;
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content{
+    
+    flex: 1;
+
+    .Sec1-flex{
+        padding: 1.25rem 0.75rem;
+        background-color: $section-bckg;
+        margin: 2rem 2.5rem 0px 2.5rem;
+    
+        h1{
+            
+            color: $bckg;
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: 500;
+            word-spacing: 1.5px;
+            font-family: $font;
+
+        }
+        p{
+            padding: 1.5rem 0rem;
+            color: $bckg;
+            font-family: $font;
+            font-size: 0.813rem;
+            word-spacing: 1px;
+            
+        }
+        div{
+            display: flex;
+            justify-content: center;
+           
+            button{
+               font-family: $font;
+                background-color: $btn-bckg;
+                border: none;
+                font-size: 0.688rem;
+                padding: 0.5rem 1rem;
+                letter-spacing: 1px;
+                word-spacing: 0.5px;
+                z-index: 100;
+                box-shadow: 6px 8px 8px 1px rgba(0,0,0,0.5);
+                opacity: 1;
+                transition: opacity 0.2s;
+                &:hover{
+                    opacity: 0.5;
+                }
+
+            }
+        }
+        
+    }
+    .Section2{
+        margin-top: 2rem;
+        h2{
+            padding-top: 1rem;
+            font-size: 0.688rem;
+            word-spacing: 2px;
+            text-align: center;
+           font-weight: 700;
+            font-family: $font;
+        }
+        .Sec2-flex{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin: 2rem 2.5rem 0px 2.5rem; 
+
+            .div-flex{
+                display: flex;
+                gap: 16px;
+                img{
+                    width: 117px;
+                }
+                .div2-flex{
+                    padding: 1.5rem 0;
+                    font-size: 0.625rem;
+                    width: min-content;
+
+                    h3{
+                        font-family: $font;
+                        font-size: 0.75rem;
+                        font-weight: 700;
+                        margin-bottom: 0.625rem;
+                    }
+                }
+               
+            }
+        }
+        #btn-div{
+            text-align: center;
+            margin:2.5rem 0px;
+        .BTN{
+            font-family: $font;
+                background-color: $btn-bckg;
+                border: none;
+                font-size: 0.688rem;
+                padding: 0.5rem 1rem;
+                letter-spacing: 1px;
+                word-spacing: 0.5px;
+                z-index: 100;
+                box-shadow: 6px 8px 8px 1px rgba(0,0,0,0.5);
+                opacity: 1;
+                transition: opacity 0.2s;
+                color: $bckg;
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+    
+    }
+}
+
+

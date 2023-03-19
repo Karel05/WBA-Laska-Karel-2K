@@ -1,0 +1,53 @@
+@import 'screen-styles.scss';
+@import '../nav+footer-styly/nav-style.scss';
+@import '../promene.scss';
+@import '../nav+footer-styly/footer-style.scss';
+
+html,body{
+    font-family: $font;
+    
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    margin: 69px 40px;
+    flex: 1;
+
+    .informace{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 12px;
+        a{
+            text-decoration: none;
+            color: black;
+            width: 100%;
+            opacity: 1;
+            transition: opacity 0.2s;
+            &:hover{
+                    opacity: 0.5;
+            }
+        }
+        .flex{
+            display: flex;
+        align-content: center;
+         align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        width: 100%;
+
+            span{
+                font-family: $font;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+}

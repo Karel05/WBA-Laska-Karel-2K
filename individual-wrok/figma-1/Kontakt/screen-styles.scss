@@ -1,0 +1,66 @@
+@media screen and (min-width:768px )and (max-width: 1024px) {
+   .content{
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    margin: 0px 40px !important;
+   h1{
+    font-size: 48px !important;
+   }
+    .FORM{
+        display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    width: 75%;
+    margin: 38px auto !important;
+
+    input{
+        font-size: 1rem !important;
+    }
+
+        textarea{
+            grid-column: 1/3 !important;
+            font-size: 1rem !important;
+        }
+    }
+    .BTN{
+        font-size: 18px !important;
+        
+    }
+
+}
+}
+
+@media screen and (min-width:1025px ){
+
+    .content{
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        
+
+        h1{
+            font-size: 48px !important;
+           }
+            .FORM{
+                display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            width: 65%;
+            margin: 38px auto !important;
+        
+            input{
+                font-size: 1rem !important;
+            }
+        
+                textarea{
+                    grid-column: 1/3 !important;
+                    font-size: 1rem !important;
+                }
+            }
+            .BTN{
+                font-size: 18px !important;
+                
+            }
+    }
+}
