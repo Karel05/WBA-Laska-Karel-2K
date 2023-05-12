@@ -13,3 +13,12 @@ document.querySelectorAll(".links").forEach(n=>
         burger.classList.remove("active")
     
 }))
+
+document.querySelectorAll(".links").forEach(element=>{
+   if (element.href == window.location.href) {
+        element.style.background="rgb(174, 174, 174)"
+   }
+     
+   
+})
+    

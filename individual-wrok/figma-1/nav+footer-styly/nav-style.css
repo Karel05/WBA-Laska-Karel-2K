@@ -58,10 +58,16 @@
   border: none;
   font-family: "Lato", sans-serif;
   font-size: 0.75rem;
-  transition: opacity 0.2s;
+  background: transparent;
+  transition: background-color 0.2s;
 }
 .nav ul a:hover {
-  opacity: 0.5;
+  scale: 1.5;
+  background-color: rgb(174, 174, 174);
+}
+.nav ul a:focus {
+  scale: 1.5;
+  background-color: rgb(174, 174, 174);
 }
 
 .nav.active {
